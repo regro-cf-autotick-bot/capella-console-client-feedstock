@@ -1,5 +1,5 @@
 {% set name = "capella-console-client" %}
-{% set version = "0.8.2" %}
+{% set version = "0.8.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/capella-console-client-{{ version }}.tar.gz
-  sha256: 35c3fa1a00c3cc3798a532892e4bad55f8490f8e0de25bc432e26ba19982e125
+  sha256: bdd266925194c2b2825b55d41ecfef70302e5eae6da7bd57a62629753f47fe6c
 
 build:
   entry_points:
